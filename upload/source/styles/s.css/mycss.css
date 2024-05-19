@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #000000 2%, #0005a3 45%, #000000 100%);
+}
+
+.nav-link {
+    color: rgb(255, 188, 3)
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(245, 242, 242);
+}
+
+.navbar-brand img {
+    width: 40px; 
+}
+
+.navbar-toggler {
+    background-color: rgb(39, 39, 39);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #000000 2%, #0005a3 45%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #000000 2%, #0005a3 45%, #000000 100%);
+    color: aquamarine
+}
+
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text, 
+.footer-text {
+    color: aquamarine 
+}
+
+footer {
+    background-color: rgb(24, 22, 22);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-logo {
+    transition: transform 0.3s;
+    margin-right: 10px; /* Добавляем отступ справа от иконки */
+}
+
+.whatsapp-text {
+    margin-right: 10px; /* Добавляем отступ справа от текста */
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+}
